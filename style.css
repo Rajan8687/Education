@@ -13,8 +13,8 @@ html{
     align-items: center;
 }
 .logo img{
-    width:80px;
-    height: 80px;
+    width:50px;
+    height: 50px;
     border: 3px solid white;
     border-radius: 50px;
 }
@@ -33,22 +33,29 @@ html{
     width: 70%;
     display: flex;
     text-align: center;
-    justify-content: center;
     font-family: 'Roboto Slab', serif;
 
 }
 .nav-list li{
+    display: flex;
+    justify-content: center;
     list-style: none;
-    padding: 26px 30px;
+    align-items: center;
 
 }
+
+
 .nav-list li a{
     text-decoration: none;
     color: white;
-
+    padding: 16px 14px;
 }
+
+
 .nav-list li a:hover{
-    color: gray;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
 
 }
 .rightnav{
@@ -62,6 +69,9 @@ html{
     border: 2px solid grey;
     border-radius: 10px;
 }
+
+
+
 .background{
     background:rgba(0, 0, 0, 0.4) url("bgg.png");
     background-size: cover;
@@ -116,12 +126,29 @@ html{
     background: none;
     color: white;
     border: 2px solid white;
+
 }
+
+
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;  
+}
+
 .btn-sm{
     padding: 5px 10px;
     vertical-align: middle;
     
 }
+
+.btn-sm:hover{
+   background-color: white;
+   color: black;
+   cursor: pointer;    
+}
+
 .btnnn{
     border: 2px solid gray;
     color: black;
@@ -164,7 +191,7 @@ html{
     text-align: left;
 }
 .contact{
-    background-color: rgb(195, 230, 218);
+    background-color: rgb(87, 163, 250);
     height: auto;
     width: 100%;
 }
@@ -187,12 +214,15 @@ html{
     font-family: 'Roboto Slab', serif;
 }
 .text-footer{
-    background-color: rgb(53, 89, 110);
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
     font-family: 'Roboto Slab', serif;
     display: flex;
     justify-content: center;
+}
+footer{
+    background-color: rgb(87, 163, 250);
 }
 .burger{
     display: none;
